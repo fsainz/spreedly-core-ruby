@@ -1,7 +1,7 @@
 module SpreedlyCore
   class PaymentMethod < Base
     attr_reader :address1, :address2, :card_type, :city, :country, :created_at,
-                :data, :email, :errors, :first_name, :last_four_digits,
+                :data, :email, :errors, :first_name, :full_name, :last_four_digits,
                 :last_name, :month, :number, :payment_method_type, :phone_number,
                 :state, :token, :updated_at, :verification_value, :year, :zip
 
